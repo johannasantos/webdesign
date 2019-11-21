@@ -5,7 +5,36 @@
 <title>Contacto</title>
 </head>
 <body>
-
-
+    <h2>Enviame tu consulta!</h2>
+    <p>(Trataré de contestarte lo más rápido posible)</p>
+        <form action="">
+            <fieldset>
+            <br>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" placeholder="Ingresa tu nombre"/>
+            </br>
+            <br>
+                    <label for="apellido">Apellido</label>
+                    <input type="text" id="apellido" placeholder="Ingresa tu apellido"/>
+            </br>
+            <br>
+                    <label for="e-mail">E-mail</label>
+                    <input type="email" id="e-mail" required placeholder="Ingresa tu e-mail"/>
+            </br>
+            <select name="País">
+                <option value="Arg">Argentina</option>
+                <option value="Br">Brasil</option>
+                <option value="Esp">España</option>
+                <option value="Ing">Inglaterra</option>
+            </select>
+            <div>Acepta los terminos y condiciones</div>
+            <input type="checkbox" name="acepta" value="1" required/>
+            <div>
+            <textarea maxlength="50" placeholder="Deja tu mensaje"></textarea>
+            <input type="submit" value="Enviar formulario"/>
+            <input type="reset" value="Limpiar formulario"/>
+            </div>
+            </fieldset>
+        </form>
 </body>
 </html>
