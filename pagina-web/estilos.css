@@ -24,20 +24,22 @@ img.logo {
 img.imagen {
     width: 640px; height: 360px;
 }
-
-nav > ul {
+nav.jo_bleu_nav > ul {
     width: 150vw;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: flex-end;
     list-style: none;
   }
   @media (max-width: 650px) {
-    nav > ul {
+    nav.jo_bleu_nav > ul {
       flex-direction: column;
     }
   }
+  nav.jo_bleu_nav > ul li {
+    padding: 0 30px;
 
+  }
 #nav-bar {
     margin-top: 5px;
     display: flex;
@@ -62,7 +64,30 @@ nav > ul {
     display: flex;
     justify-content: center;
   }
+/* nav */
 
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: var(--main-red);
+  z-index: 10;
+}
+
+.jo_sputifai {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.jo_sputifai :last-child{
+  padding-top: 40px;
+}
+ 
 
 
   
