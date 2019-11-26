@@ -77,14 +77,14 @@ nav.jo_bleu_nav > ul {
   z-index: 10;
 }
 
-.jo_sputifai {
+.spotify {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.jo_sputifai :last-child{
+.spotify :last-child{
   padding-top: 40px;
 }
  
