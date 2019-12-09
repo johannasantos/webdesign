@@ -87,7 +87,8 @@ nav.jo_bleu_nav > ul {
 }
 
 .table {
-    border-top:solid 5px rgb(149, 0, 255);	border-right:solid 10px pink;
+    border-top:solid 5px rgb(149, 0, 255);
+    border-right:solid 10px pink;
     border-bottom:solid 7px plum;
     border-left:solid 12px palevioletred;
 }
