@@ -90,8 +90,7 @@ nav.jo_bleu_nav > ul {
     border-right:solid 10px #f9f8fc;
     border-bottom:solid 7px plum;
     border-left:solid 12px #ff8ba7;
+    display: grid;  
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 3fr 1fr;
 }
-  
-
-
-  
