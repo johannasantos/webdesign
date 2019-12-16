@@ -87,8 +87,15 @@ nav.jo_bleu_nav > ul {
 
 .nav-list {
   text-decoration: none;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
 }
-
+.nav-list:hover {
+  background-color: #ffc6c7;
+  opacity: 0.6;
+}
 
 .spotify {
   display: flex;
@@ -113,15 +120,31 @@ nav.jo_bleu_nav > ul {
 
 .icon-instagram {
   text-decoration: none;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
 }
 .icon-facebook {
   text-decoration: none;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
 }
 .icon-spotify {
   text-decoration: none;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
 }
 .icon-youtube {
   text-decoration: none;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
 }
 
 input {
@@ -133,8 +156,23 @@ input {
   color: #63717f;
   padding-left: 45px;  
   outline:none;
+  background-color: #faeee7;
 }
 input:focus {
   width: 250px;
   font-size: 24px;
+}
+
+.button { text-decoration: none;
+padding: 10px;
+font-weight: 600;
+font-size: 20px;
+color: #ffffff;
+background-color: #ff8ba7;
+border-radius: 6px;
+border: 2px solid white;
+}
+.button:hover {
+  background-color: #ffc6c7;
+  opacity: 0.6;
 }
