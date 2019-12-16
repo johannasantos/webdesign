@@ -3,10 +3,20 @@
 
 
 .social {
+    text-decoration: none;
     text-align: center;
     display: inline-block;
     position: relative;
     cursor: pointer;
+    height: 50px;
+    transition: height 1s;
+    background-color: #fec7d7;
+}
+.social:hover {
+  height: 80px;
+  padding: 5px;
+  background-color: #c3f0ca;
+
 }
 
 body {
@@ -39,6 +49,7 @@ nav.jo_bleu_nav > ul {
 
   }
 #nav-bar {
+    text-decoration:none;
     margin-top: 5px;
     display: flex;
     justify-content: center;
@@ -74,6 +85,11 @@ nav.jo_bleu_nav > ul {
   z-index: 10;
 }
 
+.nav-list {
+  text-decoration: none;
+}
+
+
 .spotify {
   display: flex;
   flex-direction: column;
@@ -93,4 +109,17 @@ nav.jo_bleu_nav > ul {
     display: grid;  
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 3fr 1fr;
+}
+
+.icon-instagram {
+  text-decoration: none;
+}
+.icon-facebook {
+  text-decoration: none;
+}
+.icon-spotify {
+  text-decoration: none;
+}
+.icon-youtube {
+  text-decoration: none;
 }
