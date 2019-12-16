@@ -123,3 +123,18 @@ nav.jo_bleu_nav > ul {
 .icon-youtube {
   text-decoration: none;
 }
+
+input {
+  width: 200px; height: 50px;
+  transition: all 1.5s;    
+  border: none;
+  font-size: 10pt;
+  float: left;
+  color: #63717f;
+  padding-left: 45px;  
+  outline:none;
+}
+input:focus {
+  width: 250px;
+  font-size: 24px;
+}
