@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
-
+html, body {
+  padding: 0;
+  margin: 0;
+}
 
 .social {
     text-decoration: none;
@@ -101,7 +104,8 @@ nav.jo_bleu_nav > ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
+  padding-right: 50px;
 }
 
 .spotify :last-child{
@@ -199,7 +203,7 @@ border: 2px solid white;
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: pink;
+  background-color: #ff8ba7;
   height: 50px;
   width: 50px;
   transform: rotate(-45deg);
@@ -210,7 +214,7 @@ border: 2px solid white;
 }
 
 .loader:after {
-  background-color: pink;
+  background-color: #ff8ba7;
   content: "";
   border-radius: 50%;
   position: absolute;
@@ -221,7 +225,7 @@ border: 2px solid white;
 }
 
 .loader:before {
-  background-color: pink;
+  background-color: #ff8ba7;
   content: "";
   border-radius: 50%;
   position: absolute;
@@ -245,4 +249,18 @@ border: 2px solid white;
   50% {
     transform: scale(0.6) rotate(-45deg);
   }
+}
+
+.centrado {
+  display: flex;
+  height: 100vh;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.centrado a {
+  width: max-content;
+  margin: 0 auto;
 }
