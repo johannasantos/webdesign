@@ -42,6 +42,9 @@ img.logo {
   width: 100%;
   height: 100%;
 }
+nav.jo_bleu_nav {
+  background: rgba(255, 255, 255, .2);
+}
 nav.jo_bleu_nav > ul {
     width: 150vw;
     display: flex;
@@ -282,8 +285,6 @@ border: 2px solid white;
 }
 
 .alineado {
-  display: flex;
-  height: 100vh;
-  align-content: center;
-  justify-content: center;
+  text-align: center;
+  padding-top: 80px;
 }
