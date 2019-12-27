@@ -22,6 +22,21 @@ html, body {
 
 }
 
+.social > ul {
+  width: 55vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.social {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+
 body {
     background-color: #fec7d7;
     font-family: 'Roboto', sans-serif;
@@ -73,19 +88,7 @@ nav.jo_bleu_nav > ul {
     justify-content: center;
     font-size: 1em;
   }
-  .social > ul {
-    width: 55vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    list-style: none;
-  }
 
-  .social {
-    margin-top: 5px;
-    display: flex;
-    justify-content: center;
-  }
 /* nav */
 
 .nav {
@@ -118,7 +121,7 @@ nav.jo_bleu_nav > ul {
   padding-right: 50px;
 }
 
-.spotify :last-child{
+.spotify:last-child{
   padding-top: 40px;
 }
 

@@ -1,0 +1,24 @@
+{
+  "name": "sass-app",
+  "version": "1.0.0",
+  "description": "Challenges del curso de diseño web de Coder House",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sass ./pagina-web/sass/styles.scss ./pagina-web/css/styles.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johannasantos/webdesign.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johannasantos/webdesign/issues"
+  },
+  "homepage": "https://github.com/johannasantos/webdesign#readme",
+  "devDependencies": {
+    "sass": "^1.24.0"
+  }
+}

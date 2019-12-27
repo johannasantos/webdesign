@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #fec7d7;
+  font-family: "Roboto", sans-serif;
+  font-size: 100%;
+}
+
+.social {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  font-size: 1em;
+  transition: height 1s;
+}
+.social ul {
+  width: 55vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+}
+.social:hover {
+  height: 80px;
+  padding: 5px;
+  background-color: #c3f0ca;
+}
+.social a {
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+img.logo {
+  width: 100px;
+  height: 100px;
+}
+
+.imagen {
+  width: 640px;
+  height: 360px;
+  padding-top: 80px;
+  margin: 0 auto;
+}
+
+.imagen img {
+  width: 100px;
+  height: 100px;
+}
+
+nav.jo_bleu_nav {
+  background: rgba(255, 255, 255, 0.2);
+}
+nav.jo_bleu_nav ul {
+  width: 150vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style: none;
+}
+nav.jo_bleu_nav ul li {
+  padding: 0 30px;
+}
+@media (max-width: 650px) {
+  nav.jo_bleu_nav ul {
+    flex-direction: column;
+  }
+}
+
+#nav-bar {
+  text-decoration: none;
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.nav-list {
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+}
+.nav-list:hover {
+  background-color: #ffc6c7;
+  opacity: 0.6;
+}
+
+.spotify {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  padding-right: 50px;
+}
+.spotify:last-child {
+  padding-top: 40px;
+}
+
+.loader {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #ff8ba7;
+  height: 50px;
+  width: 50px;
+  transform: rotate(-45deg);
+  animation-name: beat;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+.loader:after {
+  background-color: #ff8ba7;
+  content: "";
+  border-radius: 50%;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 0px;
+  left: 25px;
+}
+.loader:before {
+  background-color: #ff8ba7;
+  content: "";
+  border-radius: 50%;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: -25px;
+  left: 0px;
+}
+
+@keyframes backdiv {
+  50% {
+    background: #ffe6f2;
+  }
+}
+@keyframes beat {
+  0% {
+    transform: scale(1) rotate(-45deg);
+  }
+  50% {
+    transform: scale(0.6) rotate(-45deg);
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
