@@ -4,7 +4,6 @@
   "description": "Challenges del curso de diseño web de Coder House",
   "main": "index.js",
   "scripts": {
-    "build": "[my-framework] build --output public",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "sass ./pagina-web/sass/styles.scss ./pagina-web/css/styles.css --watch"
   },
