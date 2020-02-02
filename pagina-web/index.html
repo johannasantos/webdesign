@@ -17,28 +17,13 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
                 crossorigin="anonymous"></script>
         <script src="https://use.fontawesome.com/releases/v5.12.0/js/all.js"></script>
-        <link href="styles.css" rel="stylesheet">
+        <link href="estilos.css" rel="stylesheet">
 
 
 </head>
 <style>
-        .nav-item {
-                font-size: 30px;
-                font-family: 'Roboto', sans-serif;
 
-        }
 
-        header .htop {
-                position: relative;
-                margin-top: 100px;
-                width: 100%;
-                text-align: center;
-                min-height: auto;
-                font-family: 'Roboto', sans-serif;
-
-                font-size: 1em;
-                padding: 3em;
-        }
 
         .spotify {
                 display: flex;
@@ -86,53 +71,45 @@
                 </ul>
                 <div class="carousel-inner">
                         <div class="carousel-item active">
-                                <img src="img/mic.jpeg" width="731" height="500">
+                                <img src="img/video.jpg">
                                 <div class="carousel-caption">
                                         <h1 class="display-2">Jo Bleu</h1>
-                                        <h3>Musician and developer</h3>
-                                        <button type="button" class="btn btn-outline-light btn-lg">BLOG</button>
-                                        <button type="button" class="btn btn-primary btn-lg">VIDEOS</button>
+                                        <h3>Música y desarrolladora</h3>
+                                        <button type="button" class="btn btn-outline-light btn-lg"><a href="https://jobleu-blog.netlify.com/"
+                                                        target=”_blank”>BLOG</a></button>
+                                        <button type="button" class="btn btn-primary btn-lg"><a href="https://www.youtube.com/channel/UC8xt4xLyqRE6E3Sr0ATj_-w"
+                                                        target=”_blank”>VIDEOS</a></button>
                                 </div>
 
                         </div>
-                </div>
-                <div class="carousel-item">
-                        <img src="img/amp.png" width="1000" height="500">
-                </div>
-                <div class="carousel-item">
-                        <img src="img/music.jpeg" width="1000" height="500">
-                </div>
 
-        </div>
-        </div>
-
-        <!-- jumbotron -->
-
-        <div class="container-fluid ">
-                <div class="row jumbotron">
-                        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
-                                <p class="lead">Podes escuchar mi música en spotify, youtube y todas las plataformas
-                                        digitales</p>
+                        <div class="carousel-item">
+                                <img src="img/amp.png">
                         </div>
-                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2"></div>
-                        <a href="#"><button type="button" class="btn btn-outline-secondary btn-lg">Music</button></a>
-
+                        <div class="carousel-item">
+                                <img src="img/music.jpeg">
+                        </div>
                 </div>
         </div>
+        </div>
+
+
+
 
         <!-- welcome section -->
 
         <div class="container-fluid padding">
-                <div class="row welcome text-center"></div>
-                <div class="col-12">
-                        <h1 class="display-4">Bienvenide a mi página</h1>
+                <div class="row welcome text-center">
+                        <div class="col-12">
+                                <h1 class="display-4">Bienvenide a mi página</h1>
+                        </div>
+                        <hr>
+                        <div class="col-12">
+                                <p class="lead">Acá vas a encontrar toda mi música, fechas, videos y poder contactarme
+                                        en las
+                                        redes sociales</p>
+                        </div>
                 </div>
-                <hr>
-                <div class="col-12">
-                        <p class="lead">Acá vas a encontrar toda mi música, fechas, videos y poder contactarme en las
-                                redes sociales</p>
-                </div>
-
         </div>
 
         <div class="spotify">
@@ -145,6 +122,10 @@
                 </iframe>
         </div>
 
+        <div>
+                <hr class="my-4">
+        </div>
+
         <!-- social media -->
 
 
@@ -154,10 +135,11 @@
                                 <h2>Mis redes sociales</h2>
                         </div>
                         <div class="col-12 social padding">
-                                <a href="https://www.facebook.com/jobleu.music/"><i class="fab fa-facebook"></i></a>
-                                <a href="https://www.instagram.com/jo_bleu/"><i class="fab fa-instagram"></i></a>
-                                <a href="https://www.youtube.com/channel/UC8xt4xLyqRE6E3Sr0ATj_-w"><i class="fab fa-youtube"></i></a>
-                                <a href="https://twitter.com/johannableu"><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.facebook.com/jobleu.music/" target=”_blank><i class="fab fa-facebook"></i></a>
+                                <a href="https://www.instagram.com/jo_bleu/" target=”_blank><i class="fab fa-instagram"></i></a>
+                                <a href="https://www.youtube.com/channel/UC8xt4xLyqRE6E3Sr0ATj_-w" target=”_blank><i
+                                                class="fab fa-youtube"></i></a>
+                                <a href="https://twitter.com/johannableu" target=”_blank><i class="fab fa-twitter"></i></a>
                         </div>
                 </div>
         </div>
@@ -172,7 +154,7 @@
                 <div class="row text-center">
 
                         <div class="col-12">
-                                <hr class="light">
+                                <hr class="light-100">
                                 <h5>&copy; Jo Bleu</h5>
                         </div>
                 </div>
