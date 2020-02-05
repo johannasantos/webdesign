@@ -144,7 +144,7 @@ hr.light-100 {
 }
 .tour-dates-list li {
   text-transform: uppercase;
-  display: inline;
+  display: inline-block;
   list-style: none;
   padding: 20px 0;
   color: #000;
