@@ -128,6 +128,8 @@ hr.light-100 {
 #tour-dates {
   font-size: 40px;
   padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
 }
 .tour-content {
   background-color: #F5EEE5;
