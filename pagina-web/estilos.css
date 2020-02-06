@@ -210,7 +210,6 @@ hr.light-100 {
 .centrado {
   display: flex;
   height: 100vh;
-  color: pink;
   align-content: center;
   justify-content: center;
   flex-direction: column;
