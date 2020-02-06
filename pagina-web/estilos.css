@@ -150,10 +150,7 @@ hr.light-100 {
   max-width: 420px;
   margin: 20px auto;
   padding: 10px 40px;
-  border-top:solid 5px #a786df;
-  border-right:solid 10px #f9f8fc;
-  border-bottom:solid 7px plum;
-  border-left:solid 12px #ff8ba7;
+  
 }
 .tour-dates-list span {
   color: #ff837b;
