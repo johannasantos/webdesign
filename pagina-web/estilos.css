@@ -207,6 +207,20 @@ hr.light-100 {
   background-color: transparent !important;
 }
 
+.centrado {
+  display: flex;
+  height: 100vh;
+  color: pink;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.centrado a {
+  width: max-content;
+  margin: 0 auto;
+} 
 
 @media(max-width: 768px) {
   body {
